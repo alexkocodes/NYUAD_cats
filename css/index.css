@@ -27,6 +27,7 @@ body {
     box-shadow: 5px 10px 18px #888888;
     border-radius: 8px;
     padding: 5px;
+    height: 120px;
 
     animation: fadeIn linear 1s;
     -webkit-animation: fadeIn linear 1s;
@@ -58,6 +59,23 @@ body {
 @-ms-keyframes fadeIn {
 0% {opacity:0;}
 100% {opacity:1;}
+}
+
+#menu{
+    position: absolute;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Rowdies', cursive;
+}
+
+#menu li{
+    margin: 10px;
+}
+
+#menu a{
+    color: rgba(255, 255, 255, 0.925);
 }
 
 #description{
@@ -94,7 +112,7 @@ body {
     
     background: #eeaeca;
     display: flex;
-    align-items: flex-start;
+    
     flex-direction: column;
     padding-left: 10px;
     font-family:'Montserrat', sans-serif;
