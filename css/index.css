@@ -96,7 +96,8 @@ body {
 }
 
 .content{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     flex-direction: row;
     justify-content: center;
     align-items: center;
